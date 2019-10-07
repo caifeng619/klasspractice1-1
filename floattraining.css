@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 25px;
+    background-color: lightgray ;
+}
+
+.box{
+    padding: 10px;
+    background-color: lightgreen;
+    border: 2px solid green;
+    width: calc(25% - 24px);
+}
+
+.left{
+    float: left;
+
+}
+
+.box h2{
+    font-weight: bold;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+@media screen and (max-width:769px){
+    .container{
+        margin: auto;
+    }
+    
+    .box{
+        width: 100%;
+        float: none;
+    }
+
+}
+
+
+

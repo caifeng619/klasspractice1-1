@@ -1,0 +1,108 @@
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    background-color: lightyellow;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    font-size: 20px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lista{
+
+ display: inline-block;/* or we use #rightContent{display: felx; } */
+}
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #08d63b;
+  }
+
+
+main{
+    margin: 0px 15px;
+column-count: 3;
+column-rule-style: dotted;
+column-rule-color: aquamarine;
+}
+
+section{
+    border: 2px solid tomato;
+    height: auto;
+}
+
+#anim{
+    background-color: #08d63b;
+    height: 300px;
+    width: 200px;
+    margin: 20px auto;
+    clip-path: polygon(49% 11%, 87% 41%, 70% 80%, 25% 80%, 8% 40%);
+    transition: transform 2s ease-in-out;
+
+}
+
+#anim:hover{
+    transform: translate(200px, 300px);
+
+}
+#anim2{
+    background-color: blueviolet;
+    height: 350px;
+    width: 200px;
+    margin: 20px auto;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    transition: transform 5s ease-out;
+
+}
+#anim2:hover{
+    transform: rotate(360deg);
+
+}
+
+button{
+    /* padding: 15px; */
+    margin: auto;
+    display: block;
+}
+
+/* flexbox */
+
+.container{
+    /* height: 600px; */
+    border: 2px solid black;
+display: flex;
+justify-content: center;
+align-items: center ;
+
+}
+
+.flexitem{
+height: 200px;
+width: 200px;
+background-color: palevioletred;
+
+}
+
+#flexdev{
+    display: flex;
+}
+
+#flexbutton{
+    justify-content: center;
+}

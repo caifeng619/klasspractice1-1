@@ -1,0 +1,44 @@
+#parent{
+    border: dotted 10px black;
+    margin: 20px;
+    background-color: lightyellow;
+    position: relative;
+    
+}
+#id-1{
+    background: grey;
+    border: black 5px solid;
+    height: 300px;
+    width: 150px;
+    position: absolute;
+    right: 25%;
+    bottom: 25%;
+}
+
+#id-2{
+    background: lightgreen;
+    border: black 5px solid;
+    height: 300px;
+    width: 150px;
+}
+
+#id-3{
+    background: lightgrey;
+    border: black 5px solid;
+    height: 300px;
+    width: 150px;
+}
+
+#id-4{
+    background: yellow;
+    border: black 5px solid;
+    height: 300px;
+    width: 150px;
+}
+
+#id-5{
+    background: tomato;
+    border: black 5px solid;
+    height: 300px;
+    width: 150px;
+}
