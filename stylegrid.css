@@ -1,3 +1,13 @@
 .gridView{
     display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    overflow: hidden;
 }
+
+.gridEle{
+ width: 100%;
+ height: auto;
+}
+
