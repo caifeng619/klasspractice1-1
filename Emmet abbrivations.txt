@@ -1,0 +1,26 @@
+    <p>nav>ul>li#id-$>a*4      nav>ul>li.lista*4>a </p>
+section#id-$*3
+div>ul#navigation>li#item-$.navitem{item-$}*5
+
+div#navdiv>ul.navbar>li#navelem-1.navele{Home}+li#navelem-2.navele{Main}+li#navelem-3.navele{About us}+li#navelem-4.navele{Contact Us}+li#navelem-5.nevele{More}
+div>div.box.left*4>h2{Header-$}p{Lorem10}*2
+header.header>a+li*4+h1.heading+h2.underheading	
+div>nav>section>ul>(li.navEle#navEle-$>a[href="index2.html" target="_blank"]{Om oss})*5
+    div>nav>section>ul>(li.navEle#navEle-$>a[href="index-$.html" target="_blank"]{$})*6
+
+
+git add . (filen)
+git commit -m "some changes"
+git push -u origin master
+
+
+
+
+froggy flexbox
+24/24
+flex-wrap: wrap-reverse;
+flex-direction: column-reverse;
+align-content: space-between;
+justify-content: center
+
+

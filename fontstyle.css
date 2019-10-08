@@ -1,0 +1,43 @@
+*, *::before, *::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: 'Mansalva', cursive, 'Big Shoulders Display', cursive, 'Roboto Condensed', sans-serif,  'Indie Flower', cursive, 'Pacifico', cursive, 'Shadows Into Light', cursive;
+}
+
+.header{
+    height: 90vh;
+    background: url("bilder/medium.jpeg");
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0%, 99% 86%, 0% 100%);
+    position: relative;
+}
+.middleText{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.flexnav{
+display: flex;
+text-transform: uppercase;
+widows: 70%;    
+justify-content: space-around;
+font-weight: bold;
+font-size: 2em;
+color: wheat;
+padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+.flexnav{
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+}

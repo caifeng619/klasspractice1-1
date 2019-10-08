@@ -1,0 +1,52 @@
+.tjansterSec{
+height: 400px;
+
+}
+.tjansterSecHeader{
+    font-size: 80px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tjansterbuttons{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactSec{
+    padding: 10px;
+    display: flex;
+}
+.leftContactSec{
+    flex: 1;
+    padding: 10px;
+}
+.rightContactSec{
+    flex: 1;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .tjansterSec{
+        height: 300px;
+    }
+
+    .tjansterSecHeader{
+        font-size: 35px;
+    }
+
+    .tjansterbuttons{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .contactSec{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
